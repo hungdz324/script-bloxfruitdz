@@ -57,7 +57,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
  AddButton(Tab1o, {
      Name = "hoho hub",
     Callback = function()
-	loadstring(game:HttpGet("https://auth.quartyz.com/scripts/Loader.lua"))() 
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))() 
   end
   })
 AddButton(Tab1o, {
