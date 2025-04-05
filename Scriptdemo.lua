@@ -30,9 +30,10 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "script.ổn"})
+     local Tab1o = MakeTab({Name = "script.ngon"})
      local Tab2o = MakeTab({Name = "script.đểu"})
-     local Tab3o = MakeTab({Name = "script.tối thượng"})
+     local Tab3o = MakeTab({Name = "script.cũ"})
+     local Tab4o = MakeTab({Name = "script.hop"})
      
 ------- BUTTON
     
@@ -100,5 +101,11 @@ AddButton(Tab3o, {
      Name = "skull hub",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/main/Loading"))()
+ end
+  })
+AddButton(Tab4o, {
+     Name = "cuttay hub free",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1498369f289af2671cca90085f23fb8.lua"))()
  end
   })
