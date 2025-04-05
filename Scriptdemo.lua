@@ -102,3 +102,9 @@ AddButton(Tab2o, {
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1498369f289af2671cca90085f23fb8.lua"))()
  end
   })
+AddButton(Tab1o, {
+     Name = "lion hub",
+    Callback = function()
+	
+  end
+  })
