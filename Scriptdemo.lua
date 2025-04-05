@@ -103,8 +103,9 @@ AddButton(Tab2o, {
  end
   })
 AddButton(Tab1o, {
-     Name = "lion hub",
+     Name = "andepzaihub",
     Callback = function()
-	
+	getgenv().Version = "V2"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
   end
   })
