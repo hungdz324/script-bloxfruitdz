@@ -96,3 +96,9 @@ AddButton(Tab3o, {
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/main/Loading"))()
  end
   })
+AddButton(Tab3o, {
+     Name = "skull hub",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/main/Loading"))()
+ end
+  })
