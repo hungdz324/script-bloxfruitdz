@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Image = "http://www.roblox.com/asset/?id=118196496448837",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -30,10 +30,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "script.ngon"})
-     local Tab2o = MakeTab({Name = "script.đểu"})
-     local Tab3o = MakeTab({Name = "script.cũ"})
-     local Tab4o = MakeTab({Name = "script.hop"})
+     local Tab1o = MakeTab({Name = "script.farm"})
+     local Tab2o = MakeTab({Name = "script.hop"})
+     local Tab2o = MakeTab({Name = "script.farm chest bị reset"})
      
 ------- BUTTON
     
@@ -67,35 +66,29 @@ AddButton(Tab1o, {
 	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
   end
   })
-AddButton(Tab2o, {
+AddButton(Tab1o, {
      Name = "vocalno hub",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoNewUpdated.luau"))()
   end
   })
-AddButton(Tab2o, {
+AddButton(Tab1o, {
      Name = "ronix hub",
     Callback = function()
 	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/513ccdb3ae8a61d4d7698fc337e5256d.lua"))()
   end
   })
-AddButton(Tab2o, {
+AddButton(Tab1o, {
      Name = "rubu hub",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
   end
   })
-AddButton(Tab2o, {
+AddButton(Tab1o, {
      Name = "astro hub",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
-  })
-AddButton(Tab3o, {
-     Name = "hung hub ",
-    Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/main/Loading"))()
- end
   })
 AddButton(Tab3o, {
      Name = "skull hub",
@@ -103,7 +96,7 @@ AddButton(Tab3o, {
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/main/Loading"))()
  end
   })
-AddButton(Tab4o, {
+AddButton(Tab2o, {
      Name = "cuttay hub free",
     Callback = function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a1498369f289af2671cca90085f23fb8.lua"))()
