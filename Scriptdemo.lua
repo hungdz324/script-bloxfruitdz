@@ -66,8 +66,8 @@ if script_id then
     game.StarterGui:SetCore(
         "SendNotification",
         {
-            Title = "NatHub Loaded!",
-            Text = game_name .. " Script Loaded!",
+            Title = "NatsumiHub Loaded!",
+            Text = game_name .. " địt mẹ thằng lồn",
             Icon = "rbxassetid://99764942615873",
             Duration = 5
         }
